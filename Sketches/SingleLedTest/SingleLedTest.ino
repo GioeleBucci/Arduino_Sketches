@@ -8,6 +8,7 @@ void setup() {
 
 // main loop
 void loop() {
+
   // gradually turn on
   for (int i = 0; i <= 255; i++) {
     analogWrite(LED_PIN, i);
